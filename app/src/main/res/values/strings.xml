@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ButterKnifeDemo</string>
+    <string name="email">cmpundhir@demo.com</string>
+    <string name="pass">123456</string>
+</resources>
