@@ -11,14 +11,16 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.textfield.TextInputEditText;
+
 import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
-    @BindView(R.id.editText)
-    EditText editText1;
+    @BindView(R.id.emailEDit)
+    TextInputEditText editText1;
     @BindView(R.id.editText2)
     EditText editText2;
     @BindView(R.id.txtMessage)
